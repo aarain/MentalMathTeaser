@@ -1,16 +1,16 @@
 [![Python Tests](https://github.com/aarain/MentalMathTeaser/actions/workflows/python-tests.yml/badge.svg)](https://github.com/aarain/MentalMathTeaser/actions/workflows/python-tests.yml)
 
-# Project Name
+# Mental Math Teaser
 
-A brief description of what this project does and who it's for.
+A utility for user-interactive questions to test common mental math techniques.
 
 ## 🚀 Installation
 
 How to get the development env running:
 
-1. Clone the repo: `git clone https://github.com/user/project.git`
-2. Create venv: `python3 -m venv venv`
-3. Install deps: `pip install -r requirements.txt`
+1. Clone the repo, e.g. by using the GitHub CLI: `gh repo clone aarain/MentalMathTeaser`
+2. Create a virtual environment: `python3 -m venv venv`
+3. Install dependencies: `pip install -r requirements.txt`
 
 ## 🛠 Usage
 
