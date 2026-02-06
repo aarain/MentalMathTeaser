@@ -2,6 +2,12 @@
 __pycache__/
 *.py[cod]
 
+# Python cache
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
 # Virtual Environment
 venv/
 ENV/
@@ -14,3 +20,7 @@ env/
 dist/
 build/
 *.egg-info/
+
+# Coverage reports
+.coverage
+htmlcov/

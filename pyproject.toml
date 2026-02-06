@@ -1,0 +1,16 @@
+[project]
+name = "mental_math_teaser"
+version = "0.1.0"
+description = "A utility for user-interactive questions to test common mental math techniques"
+dependencies = [
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-v"
