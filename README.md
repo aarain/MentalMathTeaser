@@ -1,3 +1,5 @@
+[![Python Tests](https://github.com/aarain/MentalMathTeaser/actions/workflows/python-tests.yml/badge.svg)](https://github.com/aarain/MentalMathTeaser/actions/workflows/python-tests.yml)
+
 # Project Name
 
 A brief description of what this project does and who it's for.
