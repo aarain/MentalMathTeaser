@@ -44,7 +44,8 @@ def main():
         elif command in HINT_CODES:
             print(f"\n{trick.trick_type_message()}\n")
         elif command == trick.answer:
-            print("\nCorrect! Here's another...")
+            elapsed_time = trick.get_elapsed_time_seconds()
+            print(f"\nCorrect in {elapsed_time:.1f} seconds! Here's another...")
             trick = generate_trick()
         else:
             print("Wrong! Try again...")

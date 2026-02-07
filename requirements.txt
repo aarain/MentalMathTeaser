@@ -4,6 +4,8 @@
 #
 #    pip-compile requirements.in
 #
+freezegun==1.5.5
+    # via -r requirements.in
 iniconfig==2.3.0
     # via pytest
 packaging==26.0
@@ -14,3 +16,7 @@ pygments==2.19.2
     # via pytest
 pytest==9.0.2
     # via -r requirements.in
+python-dateutil==2.9.0.post0
+    # via freezegun
+six==1.17.0
+    # via python-dateutil

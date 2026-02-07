@@ -1,3 +1,4 @@
+import time
 from abc import ABC, abstractmethod
 
 
@@ -12,6 +13,11 @@ class TrickBase(ABC):
                     f"Subclass '{self.__class__.__name__}' must define the '{attr}' constant."
                 )
 
+        self.current_time_seconds = time.time()
+
     @abstractmethod
     def trick_type_message(self):
         pass
+
+    def get_elapsed_time_seconds(self):
+        return time.time() - self.current_time_seconds
