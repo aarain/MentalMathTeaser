@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 
 
 class TrickBase(ABC):
@@ -11,3 +11,7 @@ class TrickBase(ABC):
                 raise NotImplementedError(
                     f"Subclass '{self.__class__.__name__}' must define the '{attr}' constant."
                 )
+
+    @abstractmethod
+    def trick_type_message(self):
+        pass
